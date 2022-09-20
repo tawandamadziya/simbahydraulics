@@ -36,13 +36,13 @@
 }
 
 .swiper{
-  width:1200px;
+  width:1000px;
   height:300px;
 }
 
 .swiper-slide{
-  height:300px;
-  width:1200px;
+  height:100%;
+  width:100%;
   filter: grayscale();
 }
 
@@ -54,19 +54,19 @@
   background: #fff;
 }
 .swiper-wrapper{
-  position: relative; left: 50%;
-  size-adjust: 1200px;
+  
+  size-adjust: auto;
 }
 #i1{
-  width: 1200px;
+  width: 1000px;
   height: 100%;
 }
 #i2{
-  width: 1200px;
+  width: 1000px;
   height: 100%;
 }
 #i3{
-  width: 1200px;
+  width: 1000px;
   height: 100%;  
 }
 #i4{
@@ -79,7 +79,7 @@
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  height:20vh;
+  height:auto;
 }
 
 #empty{
@@ -166,7 +166,7 @@ iframe{
 #Last{
   background-color: black;
   background-size: cover;
-  height:57vh;
+  height:auto;
 }
 .Last-img{
   height:140px;
