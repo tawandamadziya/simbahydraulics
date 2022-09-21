@@ -107,10 +107,9 @@
     background-color: #CCC;
     margin: 1% 0 0 15%;
     }
-
 iframe{
   width: 100%;
-  height: 100%;
+  height: 180px;
   filter: invert(100%);
 }
 
